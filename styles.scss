@@ -1,0 +1,85 @@
+body {
+  background-color: antiquewhite;
+}
+
+p {
+  color: #616161;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 60px auto;
+}
+
+h1 {
+  font-size: 6em;
+}
+
+.main-page {
+  &__title {
+    text-align: center;
+    font-weight: bold;
+    color: darkred;
+  }
+
+  &__logos {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+
+    :not(:last-child) {
+      margin-right: 20px;
+    }
+  }
+
+  &__logo {
+    button {
+      height: 100%;
+    }
+
+    img {
+      max-width: 32%;
+    }
+  }
+}
+
+.company-info {
+  &__main-image {
+    display: flex;
+    justify-content: center;
+
+  }
+
+  &__description {
+    font-size: 1.8em;
+  }
+
+  &__images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    align-content: center;
+  }
+
+  &__image {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    img {
+      max-width: 400px;
+      max-height: 300px;
+    }
+
+    p {
+      max-width: 400px;
+      text-align: center;
+      font-size: 1.5rem;
+    }
+  }
+
+  &__video {
+    display: flex;
+    justify-content: center;
+  }
+}

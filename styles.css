@@ -1,0 +1,71 @@
+body {
+  background-color: antiquewhite;
+}
+
+p {
+  color: #616161;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 60px auto;
+}
+
+h1 {
+  font-size: 6em;
+}
+
+.main-page__title {
+  text-align: center;
+  font-weight: bold;
+  color: darkred;
+}
+.main-page__logos {
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+}
+.main-page__logos :not(:last-child) {
+  margin-right: 20px;
+}
+.main-page__logo button {
+  height: 100%;
+}
+.main-page__logo img {
+  max-width: 32%;
+}
+
+.company-info__main-image {
+  display: flex;
+  justify-content: center;
+}
+.company-info__description {
+  font-size: 1.8em;
+}
+.company-info__images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  align-content: center;
+}
+.company-info__image {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.company-info__image img {
+  max-width: 400px;
+  max-height: 300px;
+}
+.company-info__image p {
+  max-width: 400px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+.company-info__video {
+  display: flex;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=styles.css.map */
